@@ -56,7 +56,7 @@ export default function Sheet() {
   };
 
   return (
-    <Card className={classes.root}>
+    <Card className={classes.root} elevation={8}>
       <CardContent>
         <Typography
           className={classes.title}
