@@ -21,7 +21,8 @@ export default function Votes() {
   };
 
   useEffect(() => {
-    const interval = setInterval(refreshVotes, 1000);
+    const interval = setInterval(refreshVotes, 2000);
+    refreshVotes();
     return () => {
       clearInterval(interval);
     };

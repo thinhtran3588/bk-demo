@@ -6,6 +6,7 @@
 - server / client
 - vercel
 - language
+- git hub
 
 - initialize a new app with Nextjs
 
