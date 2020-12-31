@@ -63,7 +63,7 @@ export default function Sheet() {
           color="textSecondary"
           gutterBottom
         >
-          Sheet
+          Sheet (new)
         </Typography>
         <div className={classes.row}>
           <span className={classes.headerCell}>a</span>
